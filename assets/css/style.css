@@ -1,0 +1,107 @@
+body {
+    background-color: orange;
+    width: 100%;
+}
+
+#wrapper {
+    background-color: rgb(155, 107, 18);
+    width: 80%;
+    margin-left: 10%;
+}
+
+.guess {
+    width: 400px;
+}
+
+.guess:hover {
+    background-color: rgb(186, 113, 63);
+    width: 400px;
+    border-radius: 15px;
+}
+
+img {
+    position: absolute;
+    width: 595px;
+    height: 150px;
+    top: 0px;
+    left: 0px;
+}
+
+#start {
+    position: relative;
+    left: 280px;
+    top: -50px;
+    float: center;
+    background-color: rgba(197, 163, 128, 0.6);
+    padding: 10px;
+    border-radius: 15px;
+    color: black;
+}
+
+#score {
+    position: relative;
+    background: white;
+    float: left;
+    width: 150px;
+    height: 125px;
+    top: 220px;
+    background-color: rgba(197, 163, 128, 0.6);
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    font-size: 20px;
+}
+
+#timer {
+    position: relative;
+    background: white;
+    float: right;
+    top: 220px;
+    font-size: 65px;
+    width: 150px;
+    height: 102px;
+    background-color: rgba(197, 163, 128, 0.6);
+    color: black;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 25px;
+}
+
+#trivia {
+    position: relative;
+    margin: auto;
+    max-width: 800px;
+    height: 380px;
+}
+
+#question {
+    position: relative;
+    background-color: rgba(197, 163, 128, 0.6);
+    color: black;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+.boxwrapper {
+    max-width: 600px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: black;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.guesswrapper {
+    position: relative;
+    left: 100px;
+    width: 200px;
+}
+
+.trythis {
+    position: absolute;
+    margin: auto;
+    height: 412px;
+    max-width: 600px;
+    position: relative;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trivia Game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+        <div class="trythis">
+            <div id="score">
+                <div id="correct">Correct: 0</div>
+                <br>
+                <div id="wrong">Wrong: 0</div>
+                <br>
+                <div id="missesd">Unsanswered: 0</div>
+            </div>
+
+
+            <div id="trivia">
+                <img src="assets/images/trivialogo.png" class="img-responsive">
+
+                <div id="timer"></div>
+            </div>
+
+            <button id="start">START</button>
+
+        </div>
+
+        <div id="other-image"></div>
+
+        <div class="trythis">
+            <div class="boxwrapper">
+                <div id="question">
+                    <div>Press the start button when ready</div>
+                </div>
+                <br>
+                <br>
+                <div class="guesswrapper">
+                    <div class="guess" id="answer1"></div>
+                    <br>
+                    <div class="guess" id="answer2"></div>
+                    <br>
+                    <div class="guess" id="answer3"></div>
+                    <br>
+                    <div class="guess" id="answer4"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
